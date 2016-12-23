@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AbstractConcept/SimpleAbstractProgram"/>
+	<classpathentry kind="src" path="ArrayAndStringPrac1/ArrayAndStringPractice"/>
+	<classpathentry kind="src" path="ConstructorExample/JavaCopyConstruct"/>
+	<classpathentry kind="src" path="ConstructorExample/ParameterisedConstructor"/>
+	<classpathentry kind="src" path="InstanceInitializer/src"/>
+	<classpathentry kind="src" path="InterfaceConcept/MultipleInterfaceExample"/>
+	<classpathentry kind="src" path="InterfaceConcept/SimpleInterface"/>
+	<classpathentry kind="src" path="OverloadingExample/AreaCalcuOverloading"/>
+	<classpathentry kind="src" path="OverRidingConcept/AreaExampleWithOverriding"/>
+	<classpathentry kind="src" path="OverRidingConcept/SimpleBankExample"/>
+	<classpathentry kind="src" path="Polymorphism/MultilevelPolyExample"/>
+	<classpathentry kind="src" path="SuperKeyword/SimpleSuperExample"/>
+	<classpathentry kind="src" path="SuperKeyword/SuperFor ConsInvoke"/>
+	<classpathentry kind="src" path="SuperKeyword/SuperForParentMethod"/>
+	<classpathentry kind="src" path="ThisKeyword/CurrClassInstanceVariable"/>
+	<classpathentry kind="src" path="ThisKeyword/InvokeClassConstrtr"/>
+	<classpathentry kind="src" path="ThisKeyword/InvokeCurrentClssMethod"/>
+	<classpathentry kind="src" path="ThisKeyword/ThisToCurClsInsta"/>
+	<classpathentry kind="src" path="ToStringExample/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="AbstractConcept/bin"/>
+</classpath>
