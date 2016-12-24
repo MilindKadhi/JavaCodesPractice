@@ -19,10 +19,21 @@ public class HasMapEgMain {
 	{
 
 		HashMap<Integer,String> h1 = new HashMap<Integer, String>();
+		HashMap<Integer, Integer> h2 = new HashMap<>();   // we have to dclare the type of Key and value in HashMap
 		
-		h1.put(2, "Milind");
+		   
+		h1.put(2, "Milind");   			// here we use put method to insert key and value in the object . 
 		h1.put(1, "Kadhi");
-		h1.put(3, "MMK");
+		h1.put(3, "ABCD");
+		
+		h2.put(2, 3);
+		h2.put(2, 3);
+		h2.put(1, 2);
+		h2.put(1, 2);
+		
+		//h2.get(h1);
+		//System.out.println(h2);
+		
 		
 		for(Map.Entry m : h1.entrySet())
 		{
@@ -31,7 +42,12 @@ public class HasMapEgMain {
 			
 		}
 		
+		System.out.println("");
 		
+		for(Map.Entry m1 : h2.entrySet())
+		{
+			System.out.println(m1.getKey() + " " + m1.getValue());
+		}
 		
 		
 	}
