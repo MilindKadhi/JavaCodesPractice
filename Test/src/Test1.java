@@ -1,0 +1,11 @@
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class Test1 {  
+public static void main(String[] args){
+String t = "Longlonglong ago, in a galaxy far far away.";
+Pattern p2 = Pattern.compile("gal.{3}");
+Matcher m2 = p2.matcher(t);
+if (m2.find()) System.out.println("Found: " + m2.group());
+}
+}
