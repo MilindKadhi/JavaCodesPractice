@@ -1,4 +1,4 @@
-package CustomException;
+
 
 import java.util.*;
 import java.util.Scanner;

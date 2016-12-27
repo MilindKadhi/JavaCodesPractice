@@ -1,4 +1,4 @@
-package CustomException;
+
 import java.util.*;
 
 public class InvalidNameException extends Exception 
