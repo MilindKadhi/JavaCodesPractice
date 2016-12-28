@@ -1,8 +1,8 @@
 
 import java.util.Arrays;
 
-import javax.naming.ldap.SortControl;
-import javax.swing.SortingFocusTraversalPolicy;
+//import javax.naming.ldap.SortControl;
+// import javax.swing.SortingFocusTraversalPolicy;
 
 public class Arraymain {
 

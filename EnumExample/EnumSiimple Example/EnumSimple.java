@@ -12,7 +12,9 @@
  */
 
 
- enum Season1{ cold, Hot, VeryCold, VeryHot } // enum is declared outside Main class we can acess individula values 
+ enum Season1{ cold, Hot, VeryCold, VeryHot }
+ 
+ 
 
 public class EnumSimple 
 {
@@ -23,19 +25,24 @@ public class EnumSimple
         public static void main(String[] args) 
            {
 	
-              for (Season s : Season.values())  // we use values () method which fetches values declared from enum.
-              System.out.println(s);
+              for (Season s : Season.values())    // we use values method which fetches values declared from enum.
+              {
+                 System.out.println(s);
+              }
               
-              Season1 s1 = Season1.cold; // we will create object of Season1 and acess the specific value of Season1
+              
+              Season1 s1 = Season1.cold;        // we will create object of Season1 and acess the specific value of Season1
               
               
               System.out.println("");
+              System.out.println("");
               
+             
               System.out.println("We will now print from enum which is declared outside the class  ");
               
-              System.out.println("");
-              
               System.out.println(s1);
+
+              
               
            }
 

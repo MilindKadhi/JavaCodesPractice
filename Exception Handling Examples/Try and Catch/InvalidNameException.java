@@ -6,7 +6,7 @@ public class InvalidNameException extends Exception
 
 	InvalidNameException()
 	{
-		System.out.println("Name is Invalid");
+		System.out.println("Name is Invalid ");
 		
 	}
 }

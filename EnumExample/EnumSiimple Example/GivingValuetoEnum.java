@@ -14,13 +14,13 @@ public  class GivingValuetoEnum
 		ROLLNUM(10),ID(20),NUMBER(12345);
 		
 		
-		 private int value;
+		 int value;
 		
 		 GiveValue(int value)
 		{
 			this.value=value;
 			
-		}
+		} 
 		 		
 		
 	}
@@ -28,6 +28,7 @@ public  class GivingValuetoEnum
 	{
 		for(GiveValue g : GiveValue.values())
 			System.out.println(g+ " " +g.value);
+			
 	}
 	
 }
